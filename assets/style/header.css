@@ -1,0 +1,26 @@
+header
+{
+	margin-top: 1%;
+	background-color: rgba(250, 249, 249, 0.822);
+	padding: 2% 2% 2% 2%;
+}
+
+header p
+{
+	font-family: tahoma;
+	font-size: 35px;
+	letter-spacing: 2px;
+	color: darkred;
+	font-weight: bolder;
+	text-shadow: 2px 2px 3px black;
+}
+header p span
+{
+	font-family: cursive;
+	font-size: 40px;
+	letter-spacing: 2px;
+	color: darkblue;
+	font-weight: bolder;
+	text-shadow: 3px 3px 3px black;
+}
+

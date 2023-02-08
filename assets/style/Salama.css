@@ -1,0 +1,68 @@
+body{
+	width: 1000px;
+	margin: auto;
+	background-image: url(../../assets/print/gauche.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+img{
+	width: 100%;
+	border-radius: 15px;
+}
+.conteneur{
+	margin-top: 10%;
+	box-shadow: 3px 3px 4px white;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.671);
+}
+button{
+	width : 200px;
+	border: none;
+	background: none;
+	border: 2px solid rgb(235, 62, 91);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: antiquewhite;
+	border-radius: 15px;
+}
+button:hover{
+	background-color: rgb(235, 62, 91);
+	color: white;
+	font-size: 20px;
+}
+.vertical{
+	margin-top: 10%;
+	text-align: center;
+	color: #F4CE9B;
+}
+p{
+	font-size: 20px;
+	text-shadow: 1px 1px 2px black;
+	width: 300px;
+}
+#inscri{
+	transition: all 1.5s ease-in-out;
+}
+#conexe{
+	transform: translateY(-200%);
+	opacity: 0;
+	transition: all 1.5s ease-in-out;
+}
+.bouton{
+	width: 100px;
+	border:none;
+}
+#new{
+	transform: translateY(-300%);
+	opacity: 0;
+	transition: all 1.5s ease-in-out;
+}
+.logo{
+	height:540px;
+}
+.verti{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #F4CE9B;
+}
